@@ -1,3 +1,8 @@
-10
-# message = "eligible" if age >= 18 else "Not Eligible"
-# print(message)
+us = False
+# for i in range(3):
+#     print("Checking....")
+#     if connection_status:
+#         print("Connected")
+#         break
+# else:
+#     print("No Internet")
