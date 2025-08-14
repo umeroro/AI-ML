@@ -36,3 +36,12 @@ while bomb.lower() != "difuse":
     print("Warning !!! Bomb Expload in few second")
     bomb = input("Enter Pass : ")
     print(f"Bomb : {bomb}")
+
+# function
+
+
+def learning():
+    print("Learning Python For ML")
+
+
+learning()
