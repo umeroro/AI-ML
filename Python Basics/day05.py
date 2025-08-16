@@ -37,11 +37,29 @@ while bomb.lower() != "difuse":
     bomb = input("Enter Pass : ")
     print(f"Bomb : {bomb}")
 
-# function
+# function and arguments
 
 
-def learning():
-    print("Learning Python For ML")
+def learning(name):
+    print(f"Learning {name} For ML")
 
 
-learning()
+learning("python")
+
+
+def addition(a, b):
+    return (a+b)
+
+
+print(addition(b=1, a=2))
+
+
+# xargs
+def collections(*numbers):
+    total = 1
+    for number in numbers:
+        total *= number
+    return total
+
+
+print(collections(2, 3, 4, 5))
