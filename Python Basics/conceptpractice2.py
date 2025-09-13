@@ -19,6 +19,7 @@ for num in range(2,number-1):
     
 # Reverse a String
 
-word = input("Enter Word : ")
+word = [input("Enter : ")]
 for str in word:
-    print(str)
+    print(str[-1::-1])
+
